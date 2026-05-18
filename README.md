@@ -1,164 +1,167 @@
-# 📘 Lista de Exercícios Básicos em React.js
+# 🚀 React.js Fundamentals
 
-![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
-![Nível](https://img.shields.io/badge/Nível-Iniciante-blue?style=for-the-badge)
+<div align="center">
 
-## 📖 Sobre o Projeto
+![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-success?style=for-the-badge)
 
-Este repositório contém uma coleção de exercícios básicos desenvolvidos em **React.js**, com foco em aprendizado dos principais conceitos iniciais da biblioteca.
+Projeto desenvolvido para estudos e prática dos fundamentos do ecossistema React.js.
 
-Os exercícios foram criados para praticar:
-
-- Variáveis
-- Interpolação com JSX
-- Renderização de informações na tela
-- Estrutura de componentes
-- Manipulação de dados simples
-- Sintaxe básica do React
-
-O objetivo é fortalecer a base em React para evoluir para conceitos mais avançados futuramente.
+</div>
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# 📖 Sobre o Projeto
 
-- React.js
-- JavaScript (ES6+)
-- JSX
-- CSS
-- Vite
+Este repositório foi criado com o objetivo de consolidar conhecimentos essenciais em desenvolvimento Front-End utilizando **React.js**.
+
+O projeto reúne aplicações e práticas voltadas para:
+
+- Estruturação de componentes
+- Manipulação de dados com JavaScript
+- Renderização dinâmica com JSX
+- Organização de projetos React
+- Boas práticas de desenvolvimento Front-End
+- Construção de interfaces modernas
+
+A proposta é fortalecer a base necessária para evolução em aplicações mais robustas utilizando tecnologias modernas do ecossistema JavaScript.
 
 ---
 
-# 📂 Estrutura dos Exercícios
+# 🛠️ Tecnologias Utilizadas
 
-## ✅ Exercício 1 — Mostrar uma variável na tela
+| Tecnologia | Descrição |
+|---|---|
+| React.js | Biblioteca JavaScript para construção de interfaces |
+| JavaScript ES6+ | Linguagem principal da aplicação |
+| JSX | Sintaxe utilizada para renderização de componentes |
+| CSS3 | Estilização da interface |
+| Vite | Ferramenta de build e ambiente de desenvolvimento |
 
-Criação de uma variável `nome` exibindo:
+---
 
-```jsx
-Olá, meu nome é João
-✅ Exercício 2 — Mostrar idade
+# 📂 Estrutura do Projeto
 
-Uso de interpolação JSX para mostrar:
+```bash
+📦 react-fundamentals
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┣ 📂 assets
+ ┃ ┣ 📜 App.jsx
+ ┃ ┗ 📜 main.jsx
+ ┣ 📂 public
+ ┣ 📜 package.json
+ ┣ 📜 vite.config.js
+ ┗ 📜 README.md
+```
 
-Eu tenho 25 anos
-✅ Exercício 3 — Soma de dois números
+---
 
-Realização de soma entre duas variáveis:
+# ⚙️ Funcionalidades
 
-A soma é: 15
-✅ Exercício 4 — Mostrar cidade e país
+- Componentização com React
+- Interface dinâmica utilizando JSX
+- Organização modular de arquivos
+- Estrutura escalável para novos recursos
+- Aplicação responsiva
+- Código limpo e reutilizável
 
-Renderização de localização:
+---
 
-Eu moro em São Paulo - Brasil
-✅ Exercício 5 — Variável booleana
+# 🚀 Como Executar o Projeto
 
-Exibição de valor booleano no React:
+## 1️⃣ Clone o repositório
 
-Estou estudando React: true
-✅ Exercício 6 — Informações de uma pessoa
-
-Criação de mini perfil contendo:
-
-Nome
-Idade
-Profissão
-✅ Exercício 7 — Preço de produto
-
-Renderização de produto e valor:
-
-Produto: Notebook
-Preço: R$ 3500
-✅ Exercício 8 — Saudação personalizada
-
-Concatenação de texto utilizando variáveis:
-
-Bom dia, Carlos!
-✅ Exercício 9 — Multiplicação
-
-Operação matemática utilizando JSX:
-
-Multiplicação: 40
-✅ Exercício 10 — Ano atual
-
-Exibição dinâmica do ano:
-
-Estamos no ano de 2026
-✅ Exercício 11 — Frase com múltiplas variáveis
-
-Montagem de frase dinâmica:
-
-Lucas estuda React na Faculdade Flamingo.
-✅ Exercício 12 — Cálculo de idade aproximada
-
-Cálculo simples utilizando subtração:
-
-Idade aproximada: 26 anos
-✅ Exercício 13 — Número favorito
-
-Renderização de preferência pessoal:
-
-Meu número favorito é 7
-✅ Exercício 14 — Temperatura da cidade
-
-Exibição de temperatura usando variáveis:
-
-A temperatura em Rio de Janeiro é 28°C
-✅ Exercício 15 — Mini Perfil
-
-Criação de um pequeno perfil contendo:
-
-Nome
-Idade
-Hobby
-🧠 Conceitos Praticados
-
-Durante os exercícios foram praticados:
-
-JSX
-Componentização
-Props básicas
-Variáveis em JavaScript
-Expressões dentro do JSX
-Estrutura de projetos React
-Organização de componentes
-▶️ Como Executar o Projeto
-1️⃣ Clone o repositório
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
-2️⃣ Acesse a pasta
-cd nome-do-projeto
-3️⃣ Instale as dependências
-npm install
-4️⃣ Execute o projeto
-npm run dev
-📚 Objetivo Educacional
-
-Este projeto faz parte dos estudos iniciais em React.js, servindo como prática para fixação da sintaxe e dos conceitos fundamentais da biblioteca.
-
-👨‍💻 Desenvolvedor
-
-Desenvolvido por Gabriel Henrique Rocha
-
-🌐 Redes
-GitHub: https://github.com/Gabriel-H-Rocha
-LinkedIn: https://www.linkedin.com/in/gabriel-henrique-a84429250/
+```
 
 ---
 
-⭐ Considerações Finais
+## 2️⃣ Acesse a pasta do projeto
 
-Este repositório representa a evolução prática nos estudos de React.js, desde conceitos básicos até a construção de componentes reutilizáveis.
+```bash
+cd nome-do-projeto
+```
 
-Futuramente serão adicionados:
+---
 
-Props
-useState
-Eventos
-Listas
-Hooks
-Consumo de API
-React Router
-Projetos completos
+## 3️⃣ Instale as dependências
+
+```bash
+npm install
+```
+
+---
+
+## 4️⃣ Execute a aplicação
+
+```bash
+npm run dev
+```
+
+---
+
+# 🌐 Ambiente de Desenvolvimento
+
+O projeto foi desenvolvido utilizando:
+
+- Node.js
+- NPM
+- Vite
+- VS Code
+
+---
+
+# 📚 Objetivo de Aprendizado
+
+Este projeto faz parte da evolução prática em desenvolvimento Front-End, com foco na criação de aplicações modernas utilizando React.js.
+
+Os estudos abordam conceitos fundamentais importantes para:
+
+- Desenvolvimento de interfaces profissionais
+- Criação de componentes reutilizáveis
+- Organização de aplicações escaláveis
+- Integração futura com APIs
+- Gerenciamento de estados
+- Desenvolvimento Full Stack
+
+---
+
+# 📈 Evolução do Projeto
+
+Próximas implementações planejadas:
+
+- Props
+- Hooks
+- useState
+- useEffect
+- React Router
+- Consumo de APIs
+- Gerenciamento de estado
+- Responsividade avançada
+- Integração com Back-End
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+## Gabriel Henrique Rocha
+
+Desenvolvedor Front-End em formação, focado em construção de interfaces modernas, responsivas e funcionais utilizando React.js e tecnologias do ecossistema JavaScript.
+
+### 🔗 Contato
+
+- GitHub: https://github.com/Gabriel-H-Rocha
+- LinkedIn: https://www.linkedin.com/in/gabriel-henrique-a84429250/
+
+---
+
+# ⭐ Considerações Finais
+
+Este repositório representa parte da trajetória de aprendizado e evolução no desenvolvimento Front-End moderno.
+
+O objetivo é continuar aprimorando habilidades técnicas, aplicando boas práticas de desenvolvimento e evoluindo para projetos cada vez mais completos e profissionais.
+
+---
